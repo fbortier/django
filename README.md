@@ -5,6 +5,7 @@
 - [Why use Django?](#why-use-django)
 - [Key benefits of Django](#key-benefits-of-django)
 - [Djangos Popularity](#djangos-popularity)
+- [Resources and Capabilities of Django](#resources-and-capabilities-of-django)
 
 ---
 
@@ -40,8 +41,15 @@ These benefits make Django a robust choice for developers aiming to build scalab
 ## Djangos Popularity
 ![Djangos Popularity](images/slide6.png)
 In the 2024 Developer Survey by Stack Overflow, Django retains a place right in the middle of other web frameworks and technologies, holding a sizeable 12% usage rate. That makes Django one of the leading ones in web development, especially in back-end development. Its stable position, however, keeps it from falling down the list for its power, security, and adaptability. This continues to prove relevant and useful to developers who want to use a powerful, documented, community-supported system of frameworks to create large-scale Web applications.
-## Routing
+## Resources and Capabilities of Django
+![Resources and Capabilities of Django](images/slide7.png)
+- **Authentication**: Django boasts of a high-feature authentication-and-permission system that makes user account, session, and permission management so easy; this surely counts among those features that immediately become indispensable while developing applications requiring user log-ins and other related access controls.
+- **Site Maps**: Django supports site maps out of the box: XML files that give search engines hints about the structure of your site and improve your SEO (Search Engine Optimization) - making sure people see the correct indexing of your content.
+- **RSS Feeds (Really Simple Syndication)**: Django provides tools for constructing RSS feeds, which enable subscribers to receive instant updates when the publishers add fresh content. This is particularly useful for content-heavy applications such as blogs or news sites.
+- **Building Content Management Systems (CMS)**: As Django is modular and flexible, it is the most appropriate framework for developing customized content management systems, where the administration can edit site contents without having to code.
+- **Building Real-Time Applications**: Django will enable real-time applications by integrating other frameworks that support features like WebSockets and allow for asynchronous communication; hence, it is suitable for implementation in chat applications or live notifications.
 
+These resources make Django a powerful framework for developers who need comprehensive tools to build and manage complex web applications.
 ## Angular Expressions
 
 ## Angular DOM Directive
