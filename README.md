@@ -8,6 +8,7 @@
 - [Resources and Capabilities of Django](#resources-and-capabilities-of-django)
 - [Security](#security)
 - [Important Features of Django](#important-features-of-django)
+- [Drawbacks of Django](#drawbacks-of-django)
 
 ---
 
@@ -69,8 +70,14 @@ These security features make Django a secure framework choice, as it is designed
 - **Automatically Creates Admin Interface**: Some of the powerful features included in Django are the ready-wear admin interface; this saves a lot of time and other resources since the developers will not be bothering themselves building up any admin system. It's also highly customizable, mainly for different applications.
 
 These features make Django a powerful and efficient framework, ideal for building secure, scalable, and versatile applications.
-## Angular Form Validation
+## Drawbacks of Django
+![Drawbacks of Django](images/slide11-14.png)
+- **Monolitihic Concept**: Well, Django is a monolithic framework, meaning it is all in one and tightly integrated. In such a design, while a lot can be brought under one roof, there is limited flexibility in case they really want to customize or swap in other parts. In some ways, it may not be the best fit for microservices-based systems, in which a structure built from independent, loosely coupled components is preferred.
+- **Steep Learning Curve**: Django is quite overwhelming for a beginner, especially if they are absolutely new-both to web development and even Python. Since Django is structured and opinionated, it takes quite a while to learn models, views, templates, and middleware. New developers cannot take in all those aspects, so the learning curve is steep initially.
+- **Not Suitable for Small Projects**: Django's feature set is much too big for a small project. For those applications where there are only a few pages or basic functionality, the setup which Django does is just unnecessary and resource-consuming. In such light projects, one can use smaller frameworks or even microframeworks, like Flask.
+- **Slow Development for Simple Applications**: Due to its structured nature and big size, setting a Django project is time-consuming and, therefore, affects the pace of development for smaller applications. While it's one of the best frameworks for big and complex projects, structure and setup time impede rapid development when creating quick minimal apps.
 
+These points highlight some of Django’s limitations, particularly when flexibility, simplicity, or quick setup is needed for smaller or simpler applications.
 ## Data Binding
 
 ## Ternary Operator in Angular
