@@ -7,6 +7,7 @@
 - [Djangos Popularity](#djangos-popularity)
 - [Resources and Capabilities of Django](#resources-and-capabilities-of-django)
 - [Security](#security)
+- [Important Features of Django](#important-features-of-django)
 
 ---
 
@@ -59,8 +60,15 @@ These resources make Django a powerful framework for developers who need compreh
 PBKDF2, or Password-Based Key Derivation Function 2) out of the box, while the configuration for even stronger algorithms is available, should this ever be required. This makes the retrieval of actual passwords quite impossible for attackers if an attacker succeeds in accessing the database.
 
 These security features make Django a secure framework choice, as it is designed to protect applications against common web vulnerabilities and promote secure coding practices.
-## Angular DOM Directive
+## Important Features of Django
+![Important Features of Django](images/slide9.png)
+- **Really Fast Implementation**: Django is designed in a modular fashion for rapid development. It provides the developer with batteries-included tools that allow rapid feature implementation without code duplication, hence ideal for projects that have to be done in the shortest time.
+- **Allows You to Build Secure Apps**: Django takes into consideration security concerns seriously and provides some built-in protection for common vulnerabilities: it offers authentication, prevents SQL injection, and protects against XSS attacks, among others, mostly out of the box.
+- **Easy to Scale**: The architecture of Django is scaled easily, due to which it fits in both small and big applications. Its flexibility and the support of different database backends and caching solutions make Django applications scalable with growing demands.
+- **Incredibly Versatile**: Everything from simple websites to complex enterprise-level solutions can be developed with Django. That makes Django flexible, because there is a great ecosystem of libraries and plugins for almost any need.
+- **Automatically Creates Admin Interface**: Some of the powerful features included in Django are the ready-wear admin interface; this saves a lot of time and other resources since the developers will not be bothering themselves building up any admin system. It's also highly customizable, mainly for different applications.
 
+These features make Django a powerful and efficient framework, ideal for building secure, scalable, and versatile applications.
 ## Angular Form Validation
 
 ## Data Binding
