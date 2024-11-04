@@ -4,6 +4,7 @@
 - [What is Django?](#what-is-django)
 - [Why use Django?](#why-use-django)
 - [Key benefits of Django](#key-benefits-of-django)
+- [Djangos Popularity](#djangos-popularity)
 
 ---
 
