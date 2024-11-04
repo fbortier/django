@@ -88,8 +88,11 @@ These points highlight some of Django’s limitations, particularly when flexibi
 - **NASA**: NASA has used Django in some internal projects, relying on safety features and the capability of Django to handle very complicated data structures. Stability and robustness make Django suitable for mission-critical applications where reliability is crucial.
 
 These examples highlight Django’s versatility and scalability, making it a popular choice among high-profile companies for building complex and secure applications.
-## Ternary Operator in Angular
-
+## Django vs. Flask 
+![Django vs. Flask](images/slide16.png)
+1. Type: 
+    - Django: A full-stack framework, meaning it provides a complete set of tools and components to build complex web applications out of the box.
+    - Flask: A micro-framework, offering a lightweight and minimal approach, allowing developers to add extensions as needed.
 ## Angular Integration with Backend
 
 ## Angular Pros
