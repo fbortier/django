@@ -9,6 +9,8 @@
 - [Security](#security)
 - [Important Features of Django](#important-features-of-django)
 - [Drawbacks of Django](#drawbacks-of-django)
+- [Companies who have used Django](#companies-who-have-used-django)
+
 
 ---
 
@@ -78,8 +80,14 @@ These features make Django a powerful and efficient framework, ideal for buildin
 - **Slow Development for Simple Applications**: Due to its structured nature and big size, setting a Django project is time-consuming and, therefore, affects the pace of development for smaller applications. While it's one of the best frameworks for big and complex projects, structure and setup time impede rapid development when creating quick minimal apps.
 
 These points highlight some of Django’s limitations, particularly when flexibility, simplicity, or quick setup is needed for smaller or simpler applications.
-## Data Binding
+## Companies who have used Django
+![Companies who have used Django](images/slide15.png)
+- **Instagram**: Instagram had chosen Django to develop its web application for the first time because Django had the advantage of fast development and was scalable. Hence, Django enabled Instagram to handle high traffic and rapidly deploy new features as the site was scaling up, making it very apt an excellent choice for a social networking site with hundreds of millions of users.
+- **Spotify**: Spotify relies on Django for the complete backend of the web application, as it's handier to work with complex data and gives good interoperability with other systems. It scales and is flexible enough to handle a great quantity of information with intensive user interactions.
+- **Pinterest**: Pinterest used Django when it was starting, which had the advantage of quickly setting up with a solid framework. For instance, Django allowed Pinterest to grow rapidly by handling millions of active users who can upload images and interact with other users in numerous ways.
+- **NASA**: NASA has used Django in some internal projects, relying on safety features and the capability of Django to handle very complicated data structures. Stability and robustness make Django suitable for mission-critical applications where reliability is crucial.
 
+These examples highlight Django’s versatility and scalability, making it a popular choice among high-profile companies for building complex and secure applications.
 ## Ternary Operator in Angular
 
 ## Angular Integration with Backend
