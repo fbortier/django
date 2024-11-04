@@ -6,6 +6,7 @@
 - [Key benefits of Django](#key-benefits-of-django)
 - [Djangos Popularity](#djangos-popularity)
 - [Resources and Capabilities of Django](#resources-and-capabilities-of-django)
+- [Security](#security)
 
 ---
 
@@ -50,8 +51,14 @@ In the 2024 Developer Survey by Stack Overflow, Django retains a place right in 
 - **Building Real-Time Applications**: Django will enable real-time applications by integrating other frameworks that support features like WebSockets and allow for asynchronous communication; hence, it is suitable for implementation in chat applications or live notifications.
 
 These resources make Django a powerful framework for developers who need comprehensive tools to build and manage complex web applications.
-## Angular Expressions
+## Security
+![Security](images/slide8.png)
+- **Cross-Site Scripting (XSS) Protecting**: Django provides built-in protections against cross-site scripting (XSS) attacks, where malicious scripts are injected into web pages viewed by other users. Django’s template system automatically escapes input data, helping to prevent these types of attacks and ensuring that user-generated content is handled securely.
+- **SQL Injection Protection (Object-Relational Mapping - ORM)**: Django's ORM allows the developer to interact with the database by writing Python code, thus reducing the possibility of SQL injection vulnerabilities by a big margin. Django's ORM prevents bad SQL command execution by an attacker via its usage of parameterized queries and encapsulation of raw SQL.
+- **Strong Password Hashing**: Django comes with a very strong password hashing engine that stores passwords very securely. Django uses algorithms like PBKDF2 (
+PBKDF2, or Password-Based Key Derivation Function 2) out of the box, while the configuration for even stronger algorithms is available, should this ever be required. This makes the retrieval of actual passwords quite impossible for attackers if an attacker succeeds in accessing the database.
 
+These security features make Django a secure framework choice, as it is designed to protect applications against common web vulnerabilities and promote secure coding practices.
 ## Angular DOM Directive
 
 ## Angular Form Validation
