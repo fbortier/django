@@ -12,14 +12,14 @@
 
 ## What is Django?
 
-![What is Django](images/slide2.png)
+![What is Django](images/slide2.png)(images/slide3.png)
 Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It is intended to enable developers to quickly construct, scalable, and secure web applications. Django follows MTV (Model-View-Template) architectural patterns. Thus, it is very easy to separate the data layer (model) from the user interface (template) and business logic (view).
 
 Django has built-in ORM (Object-Relational Mapper) for handling databases, an admin panel for handling content, out-of-the-box permission and authentication support, and form handling, URL routing, amongst many other tools. It stresses a lot on security, so protection against the common web vulnerabilities like SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF) is there.
 
 ## Why use Django?
 
-![Why use Django?](images/slide3.png)
+![Why use Django?](images/slide4.png)
 - **MVT Architecture**: Django follows the Model-View-Template (MVT) pattern which allows for the code to be organized efficiently. In Django, the model represent the data and logic. The view describes how the request is processed and how the reponse will be return. The template takes care of the HTMLs. This separation makes Django applications modular and easier to maintain.
 - **Built-in ORM (Object-Relational Mapping)**: Django's ORM allows the programmer to communicate with the database through Python instead of SQL. It provides an abstraction layer on top of the database; manipulating it directly is thus easier and even safer. Meanwhile, it supports many databases like PostgreSQL, MySQL, SQLite, and Oracle.
 - **Template Engine and URL Routing**: Django provides a strong template engine for dynamically creating HTML that supports reusable components out of the box. The URL routing system allows developers to map URLs to views with ease and makes URL management easier and customizable.
