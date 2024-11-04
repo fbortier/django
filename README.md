@@ -10,6 +10,7 @@
 - [Important Features of Django](#important-features-of-django)
 - [Drawbacks of Django](#drawbacks-of-django)
 - [Companies who have used Django](#companies-who-have-used-django)
+- [Django vs. Flask](#django-vs-flask)
 
 
 ---
