@@ -3,7 +3,7 @@
 ## References
 - [What is Django?](#what-is-django)
 - [Why use Django?](#why-use-django)
-
+- [Key benefits of Django](#key-benefits-of-django)
 
 ---
 
@@ -36,8 +36,9 @@ These features make Django a popular choice for developers who want to build sec
 - **Versatile**: Django can use several database back-ends and is extremely friendly to a Python coder hence it will be easy to shift to another database if needed. Such versatility allows Django to be applied both for a content management system and a scientific computation platform.
 
 These benefits make Django a robust choice for developers aiming to build scalable, secure, and adaptable web applications.
-## Dependency Injection
-
+## Djangos Popularity
+![Djangos Popularity](images/slide6.png)
+In the 2024 Developer Survey by Stack Overflow, Django retains a place right in the middle of other web frameworks and technologies, holding a sizeable 12% usage rate. That makes Django one of the leading ones in web development, especially in back-end development. Its stable position, however, keeps it from falling down the list for its power, security, and adaptability. This continues to prove relevant and useful to developers who want to use a powerful, documented, community-supported system of frameworks to create large-scale Web applications.
 ## Routing
 
 ## Angular Expressions
