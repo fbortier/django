@@ -1,7 +1,8 @@
-# Django Research - Group E
+# Django Research - Group A
 
 ## References
 - [What is Django?](#what-is-django)
+- [Why use Django?](#why-use-django)
 
 
 ---
@@ -12,7 +13,7 @@
 
 ## What is Django?
 
-![What is Django](images/slide2.png)(images/slide3.png)
+![What is Django](images/slide2.png)
 Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It is intended to enable developers to quickly construct, scalable, and secure web applications. Django follows MTV (Model-View-Template) architectural patterns. Thus, it is very easy to separate the data layer (model) from the user interface (template) and business logic (view).
 
 Django has built-in ORM (Object-Relational Mapper) for handling databases, an admin panel for handling content, out-of-the-box permission and authentication support, and form handling, URL routing, amongst many other tools. It stresses a lot on security, so protection against the common web vulnerabilities like SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF) is there.
