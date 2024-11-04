@@ -93,6 +93,26 @@ These examples highlight Django’s versatility and scalability, making it a pop
 1. Type: 
     - Django: A full-stack framework, meaning it provides a complete set of tools and components to build complex web applications out of the box.
     - Flask: A micro-framework, offering a lightweight and minimal approach, allowing developers to add extensions as needed.
+2. Built-in Feature:
+    - Django: Comes with many built-in features like an admin interface, ORM, and authentication system, making it suitable for large applications with complex requirements.
+    - Flask: Offers minimal built-in functionality, relying on extensions for features like authentication and ORM, giving developers more control over components.
+3. Flexibility: 
+    - Django: Less flexible due to its "batteries-included" philosophy and opinionated structure, which may restrict customization.
+    - Flask: Highly flexible, allowing developers to choose and integrate components as they wish, making it ideal for custom setups.
+4. Development Speed:
+    - Django: Fast for large applications due to its comprehensive features and tools, enabling quicker implementation of complex functionality.
+    - Flask: Fast for small applications, as it has minimal setup and allows rapid development for simple projects.
+5. Complexity: 
+    - Django: Can be complex for small tasks due to its structured and feature-rich design, which might be overwhelming for simple projects.
+    - Flask: Simple and easy to understand, making it more accessible for small projects and straightforward applications.
+6. Community and Ecosystem:
+    - Django: Has a large community with many plugins and resources available, making it easier to find support and extend functionality.
+    - Flask: Has a growing community, but fewer built-in options and plugins, though it’s gaining popularity due to its simplicity and flexibility.
+7. Learning Curve:
+    - Django: Has a steeper learning curve, especially for beginners, due to its structured approach and multiple built-in components.
+    - Flask: Gentler for new developers, as it is more straightforward and requires less knowledge of complex components.
+
+In summary, Django is ideal for larger, more complex projects that require a robust framework with built-in tools, while Flask is better suited for smaller, simpler projects or when greater flexibility is desired.
 ## Angular Integration with Backend
 
 ## Angular Pros
