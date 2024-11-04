@@ -11,7 +11,7 @@
 - [Drawbacks of Django](#drawbacks-of-django)
 - [Companies who have used Django](#companies-who-have-used-django)
 - [Django vs. Flask](#django-vs-flask)
-
+- [Django vs. Node.js](#django-vs-nodejs)
 
 ---
 
@@ -114,8 +114,20 @@ These examples highlight Django’s versatility and scalability, making it a pop
     - Flask: Gentler for new developers, as it is more straightforward and requires less knowledge of complex components.
 
 In summary, Django is ideal for larger, more complex projects that require a robust framework with built-in tools, while Flask is better suited for smaller, simpler projects or when greater flexibility is desired.
-## Angular Integration with Backend
+## Django vs. Node.js
+![Django vs. Node.js](images/slide17.png)
+1. Django: Django is a backend-focused framework that is well-suited for building complex applications. Written in Python, Django provides a structured and secure environment, which makes it an excellent choice for applications that require reliable data management, robust authentication, and complex backend functionality.
+2. Node.js: Node.js is a JavaScript runtime that allows for full-stack development in a single language (JavaScript). It excels in handling real-time applications, like chat apps or collaborative tools, thanks to its non-blocking, event-driven architecture, which enables efficient handling of concurrent connections.
+3. Django Strengths:
+    - Security: Django has strong built-in security features to protect against common vulnerabilities, making it a secure choice for backend development.
+    - Scalability: Django’s structure and modular components allow for easy scaling, making it suitable for large-scale applications.
+    - Database Management: Django’s ORM and data management tools simplify interactions with databases, providing a reliable layer for managing complex data relationships.
+4. Node.js Strengths:
+    - High-speed I/O: Node.js’s non-blocking I/O operations make it highly efficient for handling multiple requests simultaneously, enhancing performance for data-intensive applications.
+    - Non-blocking Operations: This architecture is ideal for applications requiring real-time interactions, such as chat or streaming applications, where quick response times are essential.
+    - Full-stack JavaScript Development: Node.js allows developers to use JavaScript for both frontend and backend, creating a unified development environment that simplifies project management and code sharing.
 
+In summary, Django is better suited for secure, complex applications that rely on structured backend logic, while Node.js shines in real-time applications and environments that benefit from a full-stack JavaScript solution.
 ## Angular Pros
 
 ## Angular Cons
