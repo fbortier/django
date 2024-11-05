@@ -283,26 +283,31 @@ INSTALLED_APPS = [
 ![Create a Simple View and URL]()
 1. Define a View
     - In ```myapp/views.py```, create a simple view function:
+
 ```
 from django.http import HttpResponse
 
 def home(request):
     return HttpResponse("Hello, Django!")
+
 ```
 
 2. Map the View to a URL
     - In ```myapp```, create a new file called ```urls.py```, and add the following:
 ```
+
 from django.urls import path
 from . import views
 
 urlpatterns = [
     path('', views.home, name='home'),
 ]
+
 ```
 
 - Now, link this app’s URLs to the main project’s URLs. Open ```myproject/urls.py``` and include the app’s URLs:
 ```
+
 from django.contrib import admin
 from django.urls import path, include
 
@@ -310,6 +315,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('myapp.urls')),  # Include the app's URLs
 ]
+
 ```
 
 3. Test the View
