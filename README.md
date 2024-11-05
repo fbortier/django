@@ -17,6 +17,8 @@
 - [Code Snippets](#code-snippets)
 - [Conclusion](#conclusion)
 - [Thank You](#thank-you)
+- [Tutorial on Django](#tutorial-on-django)
+- [Prerequisites](#prerequisites)
 ---
 
 ## Django Presentation
@@ -187,6 +189,7 @@ In summary, Django is a great choice for large, secure, and scalable application
 ---
 
 # Tutorial on Django
+![Tutorial on Django]()
 
 In this documentation, I will give a step-by-step tutorial on installing and setting up Django, along with some prerequisites and basic information.
 
