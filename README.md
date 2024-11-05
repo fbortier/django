@@ -191,9 +191,9 @@ In summary, Django is a great choice for large, secure, and scalable application
 In this documentation, I will give a step-by-step tutorial on installing and setting up Django, along with some prerequisites and basic information.
 
 ## Prerequisites
-![Prerequisites]
+![Prerequisites]()
 1. Python: Django is a Python web framework, so you’ll need Python installed on your machine. Django supports Python 3.8 and later.
     - To check if you have python installed, open terminal and type: ```python --version```.
-    - If pythong is not installed, you can download it from the [official Python website.](https://www.python.org/downloads/)
+    - If python is not installed, you can download it from the [official Python website.](https://www.python.org/downloads/)
 2. Pip: Pip is Python's package manager and is usually included with Python installations. You'll use it to install Django and other dependencies.
     - To check if pip is installed, in terminal type ```pip --version```
