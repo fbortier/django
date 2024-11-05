@@ -19,6 +19,13 @@
 - [Thank You](#thank-you)
 - [Tutorial on Django](#tutorial-on-django)
 - [Prerequisites](#prerequisites)
+- [Install Django](#install-django)
+- [Start a New Django Project](#start-a-new-django-project)
+- [Run the Development Server](#run-the-development-server)
+- [Create a Django App](#create-a-django-app)
+- [Create a Simple View and URL](#create-a-simple-view-and-url)
+- [Summary](#summary)
+
 ---
 
 ## Django Presentation
