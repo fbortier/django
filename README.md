@@ -262,3 +262,12 @@ myapp/
 ├── tests.py
 └── views.py
 ```
+2. Register the App
+    - Open ```settings.py``` in the main directory
+    - in the ```INSTALLED_APPS``` list, add your app:
+```
+INSTALLED_APPS = [
+    ...
+    'myapp',
+]
+```
