@@ -233,3 +233,32 @@ myproject/
     ├── asgi.py
     └── wsgi.py
 ```
+- manage.py: A command-line utility that helps manage your project.
+- settings.py: Contains project settings, including database configuration, installed apps, and more.
+- urls.py: Manages the URL routing for your project.
+- wsgi.py and asgi.py: Files that serve as entry points for WSGI (Web Server Gateway Interface) and ASGI(Asynchronous Server Gateway Interface)-compatible web servers.
+
+# Run the Development Server
+![Run the Development Server]()
+1. Start the Server
+    - Run this command to start Django's built-in development server: ```python manage.py runserver```
+    - If everything is set up correctly, you should see output indicating that the server is running on ```http://127.0.0.1:8000/```
+2. Access the Application
+    - Open a web browser and go to ```http://127.0.0.1:8000/```. You should see Django’s default welcome page that says "The install worked successfully! Congratulations!"
+
+# Create a Django App
+![Create a Django App]()
+Django projects are organized into apps, which are modular components that can be reused across multiple projects.
+1. Create a New App
+    - Run the following command to create a new app (replace ```myapp``` with your desired app name): ```python manage.py startapp myapp```
+    - this will create a new directory structure for the app:
+    ```
+myapp/
+├── migrations/
+├── __init__.py
+├── admin.py
+├── apps.py
+├── models.py
+├── tests.py
+└── views.py
+```
