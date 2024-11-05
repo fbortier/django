@@ -150,10 +150,27 @@ These steps provide a quick way to install Django, set up a new project, and tes
     - The third slide shows a live demo of a simple snake game created with Django. It demostrates Django's versatility in handling dynamic, interactive content using HTML and Django's backend capabilities.
 4. Path for the Django Snake Game:
     - The final slide displays the folder structure for the snake game, showing important directories like ```static``` (for assets such as graphics, sounds, and scripts) and ```templates``` (for HTML files). This organization illustrates how Django projects are structured, with predefined locations for static files and templates, and essential Django files created by default (e.g., ```settings.py```, ```urls.py```).
-## 
+## Code Snippets
+-[Code Snippets](images/slide24-27.jpg)
+1. HTML Structure and Control Buttons:
+    - First code snippet shows the HTML strucutre for the game. It includes a ```<canvas>``` element (```snakeCanvas```) where the game will be rendered, a hidden 'Restart Game' button and a control panel with buttons to change the direction of the snake (Up, Down, Left, Right).
+    - The JavaScript file (```script.js```) is linked right at the end, where the game logic is implemented.
+2.  Game Initialisation and Variables:
+    - In the second slide, the first snippet of code initialises the essential game variables, including the canvas context (```ctx```), the snakes initial position and direction, and the food's random position.
+    - It also sets up other important variables like ```score```, ```highScore``` (stored in local storage), ```gameSpeed``` (controls the snake’s speed), and ```game``` (to hold the game loop interval).
+3. Game Logic Functions: 
+    - The third slide shows code that include the functions to handle game controls and logic:
+        - ```changeDirection(newDirection)```: Changes the direction of the snake based on user input.
+        - ```directionHandler(event)```: Maps keyboard arrow kets to change the snakes's direction.
+        - ```collision(head, array)```: Checks for collision with the snakes body.
+        - ```drawScore()```: Displays the current and high score on the canvas.
+        - ```draw()```: The main function that draws the game state, including the snake and food.
+4. Game Loop and Restart Functionality:
+    - ```startGame()```: Starts the game loop, which updates the game state at a set interval.
+    - ```restartGame()```: Resets the game by reinitializing variables like the snake's position and score, clearing the canvas, and restarting the game loop.
+    - Finally, the restart button is linked to the ```restartGame``` function, allowing for the game to be reset when clicked.
 
-## 
-
+These snippets collectively define the core structure and logic for a simple JavaScript-based snake game, with directional controls, scoring, and restart functionality.
 ## 
 
 
