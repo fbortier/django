@@ -238,7 +238,7 @@ myproject/
 - urls.py: Manages the URL routing for your project.
 - wsgi.py and asgi.py: Files that serve as entry points for WSGI (Web Server Gateway Interface) and ASGI(Asynchronous Server Gateway Interface)-compatible web servers.
 
-# Run the Development Server
+## Run the Development Server
 ![Run the Development Server]()
 1. Start the Server
     - Run this command to start Django's built-in development server: ```python manage.py runserver```
@@ -246,7 +246,7 @@ myproject/
 2. Access the Application
     - Open a web browser and go to ```http://127.0.0.1:8000/```. You should see Django’s default welcome page that says "The install worked successfully! Congratulations!"
 
-# Create a Django App
+## Create a Django App
 ![Create a Django App]()
 Django projects are organized into apps, which are modular components that can be reused across multiple projects.
 1. Create a New App
@@ -271,3 +271,37 @@ INSTALLED_APPS = [
     'myapp',
 ]
 ```
+
+## Create a Simple View and URL
+![Create a Simple View and URL]()
+1. Define a View
+    - In ```myapp/views.py```, create a simple view function:
+```from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("Hello, Django!")
+```
+2. Map the View to a URL
+    - In ```myapp```, create a new file called ```urls.py```, and add the following:
+```
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.home, name='home'),
+]
+```
+- Now, link this app’s URLs to the main project’s URLs. Open ```myproject/urls.py``` and include the app’s URLs:
+```
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('myapp.urls')),  # Include the app's URLs
+]
+```
+3. Test the View
+    - Start the server again if it's not running:
+    ```python manage.py runserver```
+    - Go to ```http://127.0.0.1:8000/``` in your browser, and you should see “Hello, Django!” displayed.
