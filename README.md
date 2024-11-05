@@ -217,7 +217,7 @@ In this documentation, I will give a step-by-step tutorial on installing and set
 - Activate the virtual enviroment:
     - On Windows: ```myenv\Scripts\activate```
     - On macOS/Linux: ```source myenv/bin/activate```
-- You should see the virtual enviroment's name in your terminal prompt, indicating its active (eg. ```myenv```)
+    - You should see the virtual enviroment's name in your terminal prompt, indicating its active (eg. ```myenv```)
 2. Install Django
 - With the virtual enviroment active, install Django using pip: ```pip install django```
 - You can verify the installation is complete by checking the Django version: ```django-admin --verison```
@@ -283,12 +283,14 @@ INSTALLED_APPS = [
 ![Create a Simple View and URL]()
 1. Define a View
     - In ```myapp/views.py```, create a simple view function:
+
 ```
 from django.http import HttpResponse
 
 def home(request):
     return HttpResponse("Hello, Django!")
 ```
+
 2. Map the View to a URL
     - In ```myapp```, create a new file called ```urls.py```, and add the following:
 ```
