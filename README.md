@@ -306,3 +306,13 @@ urlpatterns = [
     - Start the server again if it's not running:
     ```python manage.py runserver```
     - Go to ```http://127.0.0.1:8000/``` in your browser, and you should see “Hello, Django!” displayed.
+
+## Summary
+![Summary]()
+1. Install Django and create a project and app.
+2. Run the Development Server to view the default Django page.
+3. Create a View and URL to display a custom message.
+
+This tutorial should give you a solid foundation for getting started with Django and building your first simple app. From here, you can dive deeper into Django’s features and start adding more complex functionality.
+
+---
