@@ -223,11 +223,13 @@ In this documentation, I will give a step-by-step tutorial on installing and set
 - ```cd myproject```
 3. Directory Structure
 - After creating the project, you should see a structure like this:
-```myproject/
+```
+myproject/
 ├── manage.py
 └── myproject/
     ├── __init__.py
     ├── settings.py
     ├── urls.py
     ├── asgi.py
-    └── wsgi.py```
+    └── wsgi.py
+```
