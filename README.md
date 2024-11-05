@@ -13,6 +13,9 @@
 - [Django vs. Flask](#django-vs-flask)
 - [Django vs. Node.js](#django-vs-nodejs)
 - [How to install Django](#how-to-install-django)
+- [Django Webpage and Django Game](#django-webpage-and-django-game)
+- [Code Snippets](#code-snippets)
+- [Conclusion](#conclusion)
 
 ---
 
@@ -171,8 +174,14 @@ These steps provide a quick way to install Django, set up a new project, and tes
     - Finally, the restart button is linked to the ```restartGame``` function, allowing for the game to be reset when clicked.
 
 These snippets collectively define the core structure and logic for a simple JavaScript-based snake game, with directional controls, scoring, and restart functionality.
-## 
+## Conclusion
+![Conslusion](images/slide28.png)
+- Why Choose Django?: Django is ideal for developers seeking a robust, secure, and scalable framework.
+- Ideal for Complex Applications: Django excels at handling complex applications that require a strong backend with built-in security and scalability. It's well-suited for projects that benefit from long-term maintainability.
+- Not the Best for Rapid Development: While Django is powerful, it may not be the quickest option for simple applications or rapid development due to its structured and feature-rich nature.
+- Better Alternatives for Smaller Projects: For smaller or less complex projects, other lightweight frameworks may be more appropriate, offering quicker setup and flexibility.
 
+In summary, Django is a great choice for large, secure, and scalable applications, though simpler frameworks may be preferable for smaller projects.
 
 ---
 
