@@ -283,7 +283,6 @@ INSTALLED_APPS = [
 ![Create a Simple View and URL]()
 1. Define a View
     - In ```myapp/views.py```, create a simple view function:
-
 ```
 from django.http import HttpResponse
 
@@ -301,6 +300,7 @@ urlpatterns = [
     path('', views.home, name='home'),
 ]
 ```
+
 - Now, link this app’s URLs to the main project’s URLs. Open ```myproject/urls.py``` and include the app’s URLs:
 ```
 from django.contrib import admin
@@ -311,6 +311,7 @@ urlpatterns = [
     path('', include('myapp.urls')),  # Include the app's URLs
 ]
 ```
+
 3. Test the View
     - Start the server again if it's not running:
     ```python manage.py runserver```
