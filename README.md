@@ -140,7 +140,15 @@ In summary, Django is better suited for secure, complex applications that rely o
     - Access the page: Once the server is up and running, Django will provide a local URL which is usually ```http://127.0.0.1:8000/``` that you can visit in a web browser of your choice to view your project. This URl allows for you to check if Django is working correctly and to view any changes that you make during development.
 
 These steps provide a quick way to install Django, set up a new project, and test it in a local development environment.
-## 
+## Django Webpage and Django Game
+![Django Webpage and Django Game](images/slide20-23.jpg)
+1. Django Webpage:
+    - The first slide shows the defaut Django welcome page that appears after a successful installation and setup. When you navigate to the URl ```http://127.0.0.1:8000/```, this page confirms that you have install Django correctly and the server is up and running.
+2. Django Admin Interface:
+    - As said before, Django comes built-in with a powerful admin interface which is accessible at ```http://127.0.0.1:8000/admin/```. This slide displays the admin dashboard, which is where administrators can manage data, users and permissions. the interface is automatically generated and is also customizable, saving development time for backend management.
+3. Live Demo of Django Game: 
+    - The third slide shows a live demo of a simple snake game created with Django. It demostrates Django's versatility in handling dynamic, interactive content using HTML and Django's backend capabilities. <video controls src="Untitled video - Made with Clipchamp.mp4" title="Title"></video>
+4. 
 
 ## 
 
