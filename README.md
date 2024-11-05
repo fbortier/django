@@ -182,6 +182,7 @@ These snippets collectively define the core structure and logic for a simple Jav
 - Better Alternatives for Smaller Projects: For smaller or less complex projects, other lightweight frameworks may be more appropriate, offering quicker setup and flexibility.
 
 In summary, Django is a great choice for large, secure, and scalable applications, though simpler frameworks may be preferable for smaller projects.
-
+## Thank You
+![Thank You](images/slide29.png)
 ---
 
