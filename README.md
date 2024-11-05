@@ -132,8 +132,14 @@ In summary, Django is better suited for secure, complex applications that rely o
 ## How to install Django
 ![How to install Django](images/slide18-19.png)
 1. How to install Django on Windows:
-    - Firstly open the command prompts and run the command ```pip install django``` 
+    - Firstly open the command prompts and run the command ```pip install django```. This will use the Python package, ```pip```, to download and install the latest version of Django.
+    -  Once the installation starts, you’ll see it downloading Django and its dependencies (like ```asgiref```, ```sqlparse```, etc.). After successful installation, you’ll get a confirmation message indicating Django has been installed.
+2. Setting up and Running a Django Project:
+    - Navigate to the Project Folder: Use the command ```cd 'nameOfProject'``` to go to the directory where your Django project is stored.
+    - Run the Server: Run the command ```python manage.py runserver``` to start the Django server. This server will allow you to test the app locally.
+    - Access the page: Once the server is up and running, Django will provide a local URL which is usually ```http://127.0.0.1:8000``` that you can visit in a web browser of your choice to view your project. This URl allows for you to check if Django is working correctly and to view any changes that you make during development.
 
+These steps provide a quick way to install Django, set up a new project, and test it in a local development environment.
 ## 
 
 ## 
