@@ -276,7 +276,8 @@ INSTALLED_APPS = [
 ![Create a Simple View and URL]()
 1. Define a View
     - In ```myapp/views.py```, create a simple view function:
-```from django.http import HttpResponse
+```
+from django.http import HttpResponse
 
 def home(request):
     return HttpResponse("Hello, Django!")
