@@ -12,6 +12,7 @@
 - [Companies who have used Django](#companies-who-have-used-django)
 - [Django vs. Flask](#django-vs-flask)
 - [Django vs. Node.js](#django-vs-nodejs)
+- [How to install Django](#how-to-install-django)
 
 ---
 
@@ -128,7 +129,10 @@ In summary, Django is ideal for larger, more complex projects that require a rob
     - Full-stack JavaScript Development: Node.js allows developers to use JavaScript for both frontend and backend, creating a unified development environment that simplifies project management and code sharing.
 
 In summary, Django is better suited for secure, complex applications that rely on structured backend logic, while Node.js shines in real-time applications and environments that benefit from a full-stack JavaScript solution.
-## 
+## How to install Django
+![How to install Django](images/slide18-19.png)
+1. How to install Django on Windows:
+    - Firstly open the command prompts and run the command ```pip install django``` 
 
 ## 
 
