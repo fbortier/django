@@ -147,9 +147,9 @@ These steps provide a quick way to install Django, set up a new project, and tes
 2. Django Admin Interface:
     - As said before, Django comes built-in with a powerful admin interface which is accessible at ```http://127.0.0.1:8000/admin/```. This slide displays the admin dashboard, which is where administrators can manage data, users and permissions. the interface is automatically generated and is also customizable, saving development time for backend management.
 3. Live Demo of Django Game: 
-    - The third slide shows a live demo of a simple snake game created with Django. It demostrates Django's versatility in handling dynamic, interactive content using HTML and Django's backend capabilities. ![](videos/snake%20demo.mp4)
-4. 
-
+    - The third slide shows a live demo of a simple snake game created with Django. It demostrates Django's versatility in handling dynamic, interactive content using HTML and Django's backend capabilities.
+4. Path for the Django Snake Game:
+    - The final slide displays the folder structure for the snake game, showing important directories like ```static``` (for assets such as graphics, sounds, and scripts) and ```templates``` (for HTML files). This organization illustrates how Django projects are structured, with predefined locations for static files and templates, and essential Django files created by default (e.g., ```settings.py```, ```urls.py```).
 ## 
 
 ## 
