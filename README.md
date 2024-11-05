@@ -186,6 +186,7 @@ These snippets collectively define the core structure and logic for a simple Jav
 In summary, Django is a great choice for large, secure, and scalable applications, though simpler frameworks may be preferable for smaller projects.
 ## Thank You
 ![Thank You](images/slide29.png)
+
 ---
 
 # Tutorial on Django
@@ -200,3 +201,33 @@ In this documentation, I will give a step-by-step tutorial on installing and set
     - If python is not installed, you can download it from the [official Python website.](https://www.python.org/downloads/)
 2. Pip: Pip is Python's package manager and is usually included with Python installations. You'll use it to install Django and other dependencies.
     - To check if pip is installed, in terminal type ```pip --version```
+3. Virtual Enviroment (Optional but Recommended): Virtual environments allow you to isolate dependencies for each project, avoiding conflicts. This is particularly useful if you work on multiple projects.
+
+## Install Django
+![Install Django]()
+1. Set up a Virtual Enviroment
+- Navigate to the directory where you want to create your project, and then run the following command: ```python -m venv myenv```
+- Activate the virtual enviroment:
+    - On Windows: ```myenv\Scripts\activate```
+    - On macOS/Linux: ```source myenv/bin/activate```
+- You should see the virtual enviroment's name in your terminal prompt, indicating its active (eg. ```myenv```)
+2. Install Django
+- With the virtual enviroment active, install Django using pip: ```pip install django```
+- You can verify the installation is complete by checking the Django version: ```django-admin --verison```
+
+## Start a New Django Project
+![Start a New Django Project]()
+1. Create a Project
+- Run the following command to start a new Django project (replace ```myproject``` with your desired project name): ```django-admin startproject myproject```
+2. Navigate to the Project Directory
+- ```cd myproject```
+3. Directory Structure
+- After creating the project, you should see a structure like this:
+```myproject/
+├── manage.py
+└── myproject/
+    ├── __init__.py
+    ├── settings.py
+    ├── urls.py
+    ├── asgi.py
+    └── wsgi.py```
