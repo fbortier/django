@@ -137,7 +137,7 @@ In summary, Django is better suited for secure, complex applications that rely o
 2. Setting up and Running a Django Project:
     - Navigate to the Project Folder: Use the command ```cd 'nameOfProject'``` to go to the directory where your Django project is stored.
     - Run the Server: Run the command ```python manage.py runserver``` to start the Django server. This server will allow you to test the app locally.
-    - Access the page: Once the server is up and running, Django will provide a local URL which is usually ```http://127.0.0.1:8000``` that you can visit in a web browser of your choice to view your project. This URl allows for you to check if Django is working correctly and to view any changes that you make during development.
+    - Access the page: Once the server is up and running, Django will provide a local URL which is usually ```http://127.0.0.1:8000/``` that you can visit in a web browser of your choice to view your project. This URl allows for you to check if Django is working correctly and to view any changes that you make during development.
 
 These steps provide a quick way to install Django, set up a new project, and test it in a local development environment.
 ## 
