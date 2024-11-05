@@ -252,7 +252,8 @@ Django projects are organized into apps, which are modular components that can b
 1. Create a New App
     - Run the following command to create a new app (replace ```myapp``` with your desired app name): ```python manage.py startapp myapp```
     - this will create a new directory structure for the app:
-```myapp/
+```
+myapp/
 ├── migrations/
 ├── __init__.py
 ├── admin.py
